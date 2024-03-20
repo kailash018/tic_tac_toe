@@ -1,0 +1,114 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #76a2ff;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+.login,
+.signUp {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.login input,
+.signUp input {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 30px;
+}
+.login button,
+.signUp button {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #ff006f99;
+  border-radius: 4px;
+  width: 320px;
+  height: 30px;
+  cursor: pointer;
+  justify-content: center;
+  align-self: center;
+}
+
+.login button:hover,
+.signUp button:hover {
+  background-color: #b30057;
+}
+
+.login label,
+.signUp label {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+.board {
+  width: 500px;
+  height: 500px;
+  background-color: rgb(252, 252, 252);
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  flex: 33%;
+  display: flex;
+  flex-direction: row;
+}
+
+.square {
+  flex: 33%;
+  height: 100%;
+  border: 1px solid black;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  font-size: 30px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.square:hover {
+  background-color: #f30707d8;
+}
+
+.square:active {
+  background-color: rgb(117, 222, 37);
+}
+
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 30px;
+}
+
+.joinGame input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 220px;
+  height: 30px;
+}
+
+.joinGame button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 220px;
+  height: 51px;
+  cursor: pointer;
+  background-color: rgb(222, 108, 37);
+}
+
+.joinGame button:hover{
+  background-color: #b32569;
+}
